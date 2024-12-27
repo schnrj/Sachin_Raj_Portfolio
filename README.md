@@ -6,7 +6,7 @@
 <!-- <<<<<<< HEAD
   <img alt="Demo" src="./Images/readme-img1.png" />
 ======= -->
- ## Portfolio Screenshot
+<!--  ## Portfolio Screenshot -->
 
 ![Portfolio Screenshot](https://github.com/schnrj/Sachin_Raj_Portfolio/blob/main/images/Portf.jpg)
 

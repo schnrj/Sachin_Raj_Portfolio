@@ -3,7 +3,11 @@
   <a href="https://sachinraj.vercel.app/" target="_blank">sachinraj.tech</a>
 </h2>
 <div align="center">
+<!-- <<<<<<< HEAD
   <img alt="Demo" src="./Images/readme-img1.png" />
+======= -->
+  <img alt="Demo" src="./images/portf.jpg" />
+<!-- >>>>>>> 7a9bf91 (Added Portfolio Screen shot to README) -->
 </div>
 
 <br/>

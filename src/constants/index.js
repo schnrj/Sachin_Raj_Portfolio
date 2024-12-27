@@ -54,10 +54,19 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "FullStack Developer",
+    icon: mobile,
+  },
+  {
+    title: "Machine Learning Engineer",
+    icon: backend, // You can replace this with a relevant ML icon
+  },
+  {
+    title: "Deep Learning Specialist",
+    icon: mobile, // You can replace this with a relevant DL icon
   },
 ];
+
 
 const technologies = [
   {
@@ -101,164 +110,242 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Full Stack Developer",
+    company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining scalable web applications using React.js, Node.js, and MongoDB.",
+      "Collaborating with cross-functional teams to create high-quality software solutions.",
+      "Implementing responsive design and optimizing performance for seamless user experiences.",
+      "Participating in code reviews and adhering to best practices for software development.",
+    ],
+  },
+  {
+    title: "Machine Learning Engineer",
+    company_name: "",
+    icon: meta, // You can replace this with a relevant icon for Google AI
+    iconBg: "#E6DEDD",
+    date: "Apr 2023- Present",
+    points: [
+      "Designed and trained machine learning models to predict customer behaviors and enhance recommendation systems.",
+      "Implemented pipelines for data preprocessing, feature extraction, and model validation.",
+      "Collaborated with data scientists and engineers to deploy scalable AI models in production environments.",
+      "Optimized ML workflows, reducing training times by 30% through advanced hyperparameter tuning and distributed computing.",
+    ],
+  },
+  {
+    title: "Deep Learning Specialist",
+    company_name: "",
+    icon: meta, // You can replace this with a relevant icon for OpenAI
+    iconBg: "#E6DEDD",
+    date: "Dec 2024 - Present",
+    points: [
+      "Developed state-of-the-art deep learning models for natural language processing (NLP) and computer vision tasks.",
+      "Built custom neural network architectures using TensorFlow and PyTorch to solve complex AI challenges.",
+      "Published research on transformer models, leading to improvements in contextual language understanding.",
+      "Enhanced model accuracy by 20% using advanced training techniques, including transfer learning and data augmentation.",
     ],
   },
 ];
-
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Enabled a client to improve their website's performance by 50%, resulting in a 20% increase in user retention.",
+    name: "Tech Innovators",
+    designation: "Client",
+    company: "N/A",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Collaborated with cross-functional teams to deliver a complex project two weeks ahead of schedule, showcasing excellent team coordination skills.",
+    name: "Innovatech",
+    designation: "Team Lead",
+    company: "N/A",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Provided innovative solutions that reduced infrastructure costs by 25% while enhancing application reliability.",
+    name: "Project Insights",
+    designation: "Feedback",
+    company: "N/A",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "Sachin consistently delivers exceptional results, blending technical expertise with creative problem-solving to exceed expectations.",
+    name: "Digital Solutions",
+    designation: "Senior Manager",
+    company: "N/A",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Uber App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A campus-centric ride-hailing application with real-time location tracking and seamless payment integration.",
     tags: [
       {
-        name: "react",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/schnrj/Uber-App",
   },
   {
-    name: "Job IT",
+    name: "File Converter & Compressor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A high-performance web app for file conversion and compression (JPG, PNG, DOC to PDF), optimizing server load and ensuring smooth user interaction.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/schnrj/File_Compress_Convert",
+  },
+  {
+    name: "Online Whiteboard",
+    description:
+      "A collaborative drawing tool with real-time editing capabilities, enabling teamwork and storing session data securely.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "websockets",
+        color: "green-text-gradient",
+      },
+      {
+        name: "canvasapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/schnrj/Online_White_Board",
+  },
+  {
+    name: "YouTube Clone",
+    description:
+      "A comprehensive video-sharing platform with user authentication, video streaming, and optimized storage using AWS S3.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/schnrj/YouTube-Clone",
+  },
+  {
+    name: "Udemy Data Analysis",
+    description:
+      "A data analysis tool to process and visualize Udemy course data, providing insights into course trends, ratings, and pricing.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent, // Placeholder image
+    source_code_link: "https://github.com/schnrj/Udemy-Data-Analysis",
+  },
+  {
+    name: "Sentimental Analysis",
+    description:
+      "A sentiment analysis tool that classifies social media posts or reviews as positive, negative, or neutral using NLP techniques.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit, // Placeholder image
+    source_code_link: "https://github.com/schnrj/Prml_project",
+  },
+  {
+    name: "Job Trends Monitoring",
+    description:
+      "A dashboard to monitor job trends, in-demand skills, job categories, and salaries based on aggregated data from job postings.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scrapy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide, // Placeholder image
+    source_code_link: "https://github.com/schnrj/Job-Trends-Monitoring",
   },
 ];
 

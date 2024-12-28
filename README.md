@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://sachinraj.vercel.app/" target="_blank">sachinraj.tech</a>
+  <a href="https://sachin-raj-portfolio-lxf7.vercel.app/" target="_blank">sachinraj.tech</a>
 </h2>
 <div align="center">
 <!-- <<<<<<< HEAD
@@ -20,8 +20,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/schnrj/Sachin_Raj_Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/schnrj/Sachin_Raj_Portfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
 
@@ -38,7 +38,8 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="https://sachinraj.vercel.app/" target="_blank">schnrj.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+<a href="https://sachin-raj-portfolio-lxf7.vercel.app/" target="_blank" style="text-decoration: none; color: #1E90FF; font-weight: bold;">My personal portfolio</a>
+
 
 This project was built using these technologies.
 

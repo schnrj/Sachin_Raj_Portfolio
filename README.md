@@ -8,7 +8,8 @@
 ======= -->
 <!--  ## Portfolio Screenshot -->
 
-![Portfolio Screenshot]([https://github.com/schnrj/Sachin_Raj_Portfolio/blob/main/images/Portf.jpg](https://github.com/schnrj/Sachin_Raj_Portfolio/blob/main/Portf.jpg))
+![Portfolio Screenshot](https://github.com/schnrj/Sachin_Raj_Portfolio/blob/main/images/Portf.jpg)
+
 
 <!-- >>>>>>> 7a9bf91 (Added Portfolio Screen shot to README) -->
 </div>s

@@ -38,7 +38,8 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href=" https://sachin-raj-portfolio-lxf7.vercel.app/" target="_blank">sachinraj.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+<a href="https://sachin-raj-portfolio-lxf7.vercel.app/" target="_blank" style="text-decoration: none; color: #1E90FF; font-weight: bold;">My personal portfolio</a>
+
 
 This project was built using these technologies.
 

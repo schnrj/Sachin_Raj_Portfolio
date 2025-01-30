@@ -13,43 +13,57 @@
   color-scheme: dark;
 }
 
+/* Added mobile-first media queries */
+html {
+  font-size: 14px; /* Base font size for mobile */
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 16px; /* Larger base size for tablets/desktop */
+  }
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
 }
 
+/* Gradient classes */
 .black-gradient {
-  background: #000000;
-  background: -webkit-linear-gradient(to right, #434343, #000000);
   background: linear-gradient(to right, #434343, #000000);
 }
 
 .violet-gradient {
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
 }
 
 .green-pink-gradient {
-  background: #00cea8; /* Fixed: Removed quotes */
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
-/* ... (rest of your gradients remain unchanged) */
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  .hash-span {
+    margin-top: -80px;
+    padding-bottom: 80px;
+  }
 
-/* canvas- styles */
-.canvas-loader {
-  font-size: 10px;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  position: relative;
-  text-indent: -9999em;
-  animation: mulShdSpin 1.1s infinite ease;
-  transform: translateZ(0);
+  /* Add mobile-specific canvas adjustments if needed */
+  .canvas-loader {
+    transform: scale(0.8);
+  }
 }
 
-@keyframes mulShdSpin { /* ... */ }
+/* Touch target sizes */
+button, a {
+  min-width: 48px;
+  min-height: 48px;
+}
 
-/* Media queries remain unchanged */
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}

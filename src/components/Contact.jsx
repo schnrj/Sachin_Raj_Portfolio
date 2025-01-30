@@ -109,14 +109,23 @@ const Contact = () => {
             <span className="text-secondary text-sm">LinkedIn</span>
           </a>
 
-          {/* Resume */}
+          {/* Resume Options */}
           <a
-            href="/Sachin_Raj_Final_Resume.pdf"
+            href="https://drive.google.com/file/d/1liPAr3QAH2au1dGG7HMoHOT2F4q9-FSJ/view?usp=sharing"
             download
             className="flex flex-col items-center justify-center gap-2 bg-tertiary p-6 rounded-lg shadow-md shadow-primary transition-transform transform hover:scale-105"
           >
             <HiOutlineDocumentText size={40} className="text-white" />
-            <span className="text-secondary text-sm">Resume</span>
+            <span className="text-secondary text-sm">Full Stack Resume</span>
+          </a>
+
+          <a
+            href="https://drive.google.com/file/d/1IbRnkWhekDmeUEVbDemvz46DsQosdoYQ/view?usp=sharing"
+            download
+            className="flex flex-col items-center justify-center gap-2 bg-tertiary p-6 rounded-lg shadow-md shadow-primary transition-transform transform hover:scale-105"
+          >
+            <HiOutlineDocumentText size={40} className="text-white" />
+            <span className="text-secondary text-sm">Data Science Resume</span>
           </a>
         </div>
       </motion.div>

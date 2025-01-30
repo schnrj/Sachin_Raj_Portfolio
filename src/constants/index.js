@@ -1,3 +1,13 @@
+// Import the image and assets
+import thumbnail_downloader from '../assets/thumbnail-downloader-screenshot.jpg'; // Relative path
+import mernAIChatBotImage from '../assets/mernAIChatBot.jpg';
+import uberAppImage from '../assets/uberApp.jpg';
+import allInOneCalculatorImage from '../assets/allInOneCalculator.jpg';
+import onlineWhiteBoardImage from '../assets/onlineWhiteBoard.jpg';
+import neuralNetworkImage from '../assets/neuralNetwork.jpg';
+import sentimentalAnalysisImage from '../assets/sentimentalAnalysis.jpg';
+import plagiarismDetectorImage from '../assets/plagiarismDetector.jpg';
+import spamClassificationImage from '../assets/spamClassification.jpg';
 import {
   mobile,
   backend,
@@ -19,11 +29,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  carrent, 
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from '../assets';  // Ensure correct relative path
 
 export const navLinks = [
   {
@@ -42,31 +52,14 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FullStack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "FullStack Developer",
-    icon: mobile,
-  },
-  {
-    title: "Machine Learning Engineer",
-    icon: backend, // You can replace this with a relevant ML icon
-  },
-  {
     title: "Deep Learning Specialist",
-    icon: mobile, // You can replace this with a relevant DL icon
+    icon: mobile,
   },
 ];
-
 
 const technologies = [
   {
@@ -140,7 +133,7 @@ const experiences = [
   {
     title: "Machine Learning Engineer",
     company_name: "",
-    icon: meta, // You can replace this with a relevant icon for Google AI
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "Apr 2023- Present",
     points: [
@@ -153,7 +146,7 @@ const experiences = [
   {
     title: "Deep Learning Specialist",
     company_name: "",
-    icon: meta, // You can replace this with a relevant icon for OpenAI
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "Dec 2024 - Present",
     points: [
@@ -164,189 +157,190 @@ const experiences = [
     ],
   },
 ];
-const testimonials = [
-  {
-    testimonial:
-      "Enabled a client to improve their website's performance by 50%, resulting in a 20% increase in user retention.",
-    name: "Tech Innovators",
-    designation: "Client",
-    company: "N/A",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "Collaborated with cross-functional teams to deliver a complex project two weeks ahead of schedule, showcasing excellent team coordination skills.",
-    name: "Innovatech",
-    designation: "Team Lead",
-    company: "N/A",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Provided innovative solutions that reduced infrastructure costs by 25% while enhancing application reliability.",
-    name: "Project Insights",
-    designation: "Feedback",
-    company: "N/A",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-  {
-    testimonial:
-      "Sachin consistently delivers exceptional results, blending technical expertise with creative problem-solving to exceed expectations.",
-    name: "Digital Solutions",
-    designation: "Senior Manager",
-    company: "N/A",
-    image: "https://randomuser.me/api/portraits/men/7.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Uber App",
+    name: "YouTube Thumbnail Downloader",
     description:
-      "A campus-centric ride-hailing application with real-time location tracking and seamless payment integration.",
+      "Web tool for extracting YouTube thumbnails with 4K resolution support and instant preview.",
     tags: [
       {
-        name: "reactnative",
-        color: "blue-text-gradient",
+        name: "React",
+        color: "text-cyan-400",
       },
       {
-        name: "mysql",
-        color: "green-text-gradient",
+        name: "JavaScript",
+        color: "text-amber-400",
       },
       {
-        name: "nodejs",
-        color: "pink-text-gradient",
+        name: "API",
+        color: "text-purple-400",
       },
     ],
-    image: carrent,
+    image: thumbnail_downloader, // Image imported correctly
+    source_code_link: "https://github.com/schnrj/YouTube-Thumbnail-Downloader",
+    live_demo_link: "https://youtube-thumbnail-downloader-iota.vercel.app/",
+  },
+  {
+    name: "MernAI ChatBot",
+    description:
+      "A chatbot application built with Node.js, Express, and MongoDB that utilizes AI for natural conversation.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "text-green-400",
+      },
+      {
+        name: "Express",
+        color: "text-red-400",
+      },
+      {
+        name: "MongoDB",
+        color: "text-blue-400",
+      },
+    ],
+    image: mernAIChatBotImage, // Add path to your project image
+    source_code_link: "https://github.com/schnrj/MERN-AI-ChatBot",
+    live_demo_link: "https://mern-ai-chatbot-demo.com", // Replace with your live demo link
+  },
+  {
+    name: "UberApp Fullstack",
+    description:
+      "A full-stack Uber-like app with features such as ride booking, driver tracking, and payment gateway integration.",
+    tags: [
+      {
+        name: "React",
+        color: "text-cyan-400",
+      },
+      {
+        name: "Node.js",
+        color: "text-green-400",
+      },
+      {
+        name: "MongoDB",
+        color: "text-blue-400",
+      },
+    ],
+    image: uberAppImage, // Add path to your project image
     source_code_link: "https://github.com/schnrj/Uber-App",
+    live_demo_link: "https://uberapp-fullstack-demo.com", // Replace with your live demo link
   },
   {
-    name: "File Converter & Compressor",
+    name: "AllInOneCalculator",
     description:
-      "A high-performance web app for file conversion and compression (JPG, PNG, DOC to PDF), optimizing server load and ensuring smooth user interaction.",
+      "A versatile calculator with 21 functionalities including scientific and graphical operations.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "JavaScript",
+        color: "text-amber-400",
       },
       {
-        name: "nodejs",
-        color: "green-text-gradient",
+        name: "API",
+        color: "text-purple-400",
       },
       {
-        name: "mongodb",
-        color: "pink-text-gradient",
+        name: "HTML & CSS",
+        color: "text-gray-400",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/schnrj/File_Compress_Convert",
+    image: allInOneCalculatorImage, // Add path to your project image
+    source_code_link: "https://github.com/schnrj/SuperCalculator",
+    live_demo_link: "https://all-in-one-calculator-my3ln3zo8-sachins-projects-4c45740f.vercel.app/", // Replace with your live demo link
   },
   {
-    name: "Online Whiteboard",
+    name: "Online WhiteBoard",
     description:
-      "A collaborative drawing tool with real-time editing capabilities, enabling teamwork and storing session data securely.",
+      "An online collaborative whiteboard application where multiple users can draw, write, and share in real-time.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "React",
+        color: "text-cyan-400",
       },
       {
-        name: "websockets",
-        color: "green-text-gradient",
+        name: "Node.js",
+        color: "text-green-400",
       },
       {
-        name: "canvasapi",
-        color: "pink-text-gradient",
+        name: "WebSocket",
+        color: "text-orange-400",
       },
     ],
-    image: jobit,
+    image: onlineWhiteBoardImage, // Add path to your project image
     source_code_link: "https://github.com/schnrj/Online_White_Board",
+    live_demo_link: "https://onlinewhiteboard-demo.com", // Replace with your live demo link
   },
   {
-    name: "YouTube Clone",
+    name: "Neural Network from Scratch",
     description:
-      "A comprehensive video-sharing platform with user authentication, video streaming, and optimized storage using AWS S3.",
+      "A basic neural network implemented from scratch in Python, demonstrating the core principles of deep learning.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Python",
+        color: "text-yellow-400",
       },
       {
-        name: "aws",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
+        name: "Deep Learning",
+        color: "text-blue-400",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/schnrj/YouTube-Clone",
-  },
-  {
-    name: "Udemy Data Analysis",
-    description:
-      "A data analysis tool to process and visualize Udemy course data, providing insights into course trends, ratings, and pricing.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent, // Placeholder image
-    source_code_link: "https://github.com/schnrj/Udemy-Data-Analysis",
+    image: neuralNetworkImage, // Add path to your project image
+    source_code_link: "https://github.com/schnrj/Deep-Neural-Network-From-Scratch",
+    live_demo_link: "https://neuralnetwork-demo.com", // Replace with your live demo link
   },
   {
     name: "Sentimental Analysis",
     description:
-      "A sentiment analysis tool that classifies social media posts or reviews as positive, negative, or neutral using NLP techniques.",
+      "A sentiment analysis project using Natural Language Processing to classify sentiment from text data.",
     tags: [
       {
-        name: "python",
-        color: "blue-text-gradient",
+        name: "Python",
+        color: "text-yellow-400",
       },
       {
-        name: "tensorflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "flask",
-        color: "pink-text-gradient",
+        name: "Machine Learning",
+        color: "text-green-400",
       },
     ],
-    image: jobit, // Placeholder image
-    source_code_link: "https://github.com/schnrj/Prml_project",
+    image: sentimentalAnalysisImage, // Add path to your project image
+    source_code_link: "https://github.com/schnrj/Sentiment_Analysis",
+    live_demo_link: "https://sentimental-analysis-demo.com", // Replace with your live demo link
   },
   {
-    name: "Job Trends Monitoring",
+    name: "Plagiarism Detector",
     description:
-      "A dashboard to monitor job trends, in-demand skills, job categories, and salaries based on aggregated data from job postings.",
+      "A plagiarism detection tool that analyzes text for similarities using various algorithms.",
     tags: [
       {
-        name: "python",
-        color: "blue-text-gradient",
+        name: "Python",
+        color: "text-yellow-400",
       },
       {
-        name: "scrapy",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
+        name: "Algorithm",
+        color: "text-red-400",
       },
     ],
-    image: tripguide, // Placeholder image
-    source_code_link: "https://github.com/schnrj/Job-Trends-Monitoring",
+    image: plagiarismDetectorImage, // Add path to your project image
+    source_code_link: "https://github.com/schnrj/Plagiarism_Detector",
+    live_demo_link: "https://plagiarism-detector-demo.com", // Replace with your live demo link
+  },
+  {
+    name: "Spam Classification",
+    description:
+      "A classification model built using machine learning algorithms to identify spam emails or messages.",
+    tags: [
+      {
+        name: "Python",
+        color: "text-yellow-400",
+      },
+      {
+        name: "Machine Learning",
+        color: "text-green-400",
+      },
+    ],
+    image: spamClassificationImage, // Add path to your project image
+    source_code_link: "https://github.com/schnrj/Spam-Email-Classification",
+    live_demo_link: "https://spam-classification-demo.com", // Replace with your live demo link
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
